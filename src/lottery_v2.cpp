@@ -1,4 +1,4 @@
-#include "lottery.hpp"
+#include "lottery_v2.hpp"
 
 void nft_lottery::start(name user, uint64_t selected_number, asset bet_amount) {
     require_auth(user);

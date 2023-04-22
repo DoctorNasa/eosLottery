@@ -1,15 +1,17 @@
-
-
 # NFT Lottery Smart Contract
 
 This repository contains a basic NFT lottery smart contract for the EOSIO-based WAX blockchain. Players can bet WAX tokens on a number between 1 and 10, and if their chosen number matches the randomly generated winning number, they win an NFT reward.
 
 ## Features
 
-- Users can select a number between 1 and 10
-- Users can bet with WAX tokens
-- The smart contract generates a random winning number between 1 and 10
-- Winners receive an NFT reward (reward distribution implementation needed)
+1. Two-player mode.
+2. Players can select a number between 1 and 10.
+3. Bet with WAX tokens.
+4. The smart contract randomizes the winning number.
+5. When a user wins, they receive a reward.
+6. When a user loses, the lost bet amount is sent to the contract owner's WAX address.
+7. A fee of 0.3 WAX is charged per transaction.
+8. Players must have staked enough CPU and RAM resources before participating.
 
 ## Dependencies
 
