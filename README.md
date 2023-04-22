@@ -83,3 +83,13 @@ Make sure you are include as list file.
 4.checkformat.hpp
 Make sure you have complete coding a lottery.hpp file.
 testing
+
+The previos smartcontract
+please make sure you have update the contract as required.
+update feature:
+1. create a 2-player mode.
+2. if the player selected the wrong number, make sure to send the wax token bet to the owner's address [ wax address].
+3. For every betting make sure to get a fee of 0.3 wax/transaction, create {rescive fee} [wax address].
+4. Make sure you have to create a correct smart contract.
+5. wax address for receiving lost bets and the fee is {dogandcatnf}.make sure have update
+6. Make sure the player has stake CPU, ram resources before playing.
