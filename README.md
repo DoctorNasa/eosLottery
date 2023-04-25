@@ -67,29 +67,47 @@ Replace `<your_account_name>` with your account name, `<contract_account_name>` 
 Thoroughly test the contract before deploying it to a live environment.
 
 ## License
+ Redroll.io license by tech develop teams.
 
-Q: Create a Lottery Contract for game NFT Lottery.
-Feature: 
-1. User can selected  Number, 1-10 only one number from 1-10.
-2. User are available bet with WAX Token.
-3. Smart-contract randomize number 1-10.
-4. When user win, they will get reward. 
-#make sure this contract use WAX Token?
-#please wire the code complete? 
-Make sure you are include as list file.
-1.atomicassets.hpp
-2.atomicdata.hpp
-3.base58.hpp
-4.checkformat.hpp
-Make sure you have complete coding a lottery.hpp file.
-testing
+## Game smartcontract
+``` let's review the current features in your NFT Lottery smart contract:
 
-The previos smartcontract
-please make sure you have update the contract as required.
-update feature:
-1. create a 2-player mode.
-2. if the player selected the wrong number, make sure to send the wax token bet to the owner's address [ wax address].
-3. For every betting make sure to get a fee of 0.3 wax/transaction, create {rescive fee} [wax address].
-4. Make sure you have to create a correct smart contract.
-5. wax address for receiving lost bets and the fee is {dogandcatnf}.make sure have update
-6. Make sure the player has stake CPU, ram resources before playing.
+Single-mode, 2-player mode, and multiple-mode
+Time-limited events
+Lottery game jackpot method
+Sending lost bets to the owner's address
+Charging a fee per transaction
+Staking CPU and RAM resources before playing
+If you want to continue enhancing the smart contract, you can consider implementing some of the other features mentioned earlier:
+
+Dynamic Jackpot: Instead of using a fixed percentage of lost bets for the jackpot pool, implement a dynamic system that changes the percentage based on factors like the total number of games played, the total amount of bets, or the number of consecutive games without a winner.
+
+Tiered Lottery System: Allow players to select multiple numbers and win different levels of rewards based on the number of correct guesses. This will encourage users to participate more and make the game more interesting.
+
+Referral Program: Introduce a referral program that rewards users for bringing in new participants. Users can earn a small percentage of the bets made by their referrals, incentivizing them to share the game with friends and followers.
+
+NFT Prize Pool: Integrate a prize pool of NFTs that can be won alongside WAX token rewards. This adds an extra layer of excitement and variety to the game, as users will be motivated to participate to win exclusive NFTs.
+
+Leaderboard: Implement a leaderboard to showcase top winners and participants, encouraging competition among users and increasing engagement.
+
+NFT Staking: Allow users to stake their NFTs as an alternative form of entry to the lottery. This creates a new use case for NFTs and may attract users who own valuable NFTs but do not want to spend WAX tokens.
+
+Social Features: Integrate social features such as chat rooms or in-game messaging, allowing users to interact with each other and discuss the game. This can foster a sense of community and increase user engagement.```
+
+
+## Next Feature
+1. Dynamic Jackpot: Create a dynamic jackpot that accumulates a percentage of the lost bets over time. This jackpot can be won at specific intervals or under certain conditions, which will increase user engagement and excitement.
+
+2. Tiered Lottery System: Implement a tiered lottery system where users can select multiple numbers and win different levels of rewards based on the number of correct guesses. This will encourage users to participate more and make the game more interesting.
+
+3. Referral Program: Introduce a referral program that rewards users for bringing in new participants. Users can earn a small percentage of the bets made by their referrals, thus incentivizing them to share the game with friends and followers.
+
+4. Time-limited Events: Create time-limited events, like holiday-themed games, with unique rewards and increased chances of winning. This will attract more users during special occasions and keep the game fresh.
+
+5. NFT Prize Pool: Integrate a prize pool of NFTs that can be won alongside WAX token rewards. This adds an extra layer of excitement and variety to the game, as users will be motivated to participate in order to win exclusive NFTs.
+
+6. Leaderboard: Implement a leaderboard to showcase top winners and participants, encouraging competition among users and increasing engagement.
+
+7. NFT Staking: Allow users to stake their NFTs as an alternative form of entry to the lottery. This creates a new use case for NFTs and may attract users who own valuable NFTs but do not want to spend WAX tokens.
+
+8. Social Features: Integrate social features such as chat rooms or in-game messaging, allowing users to interact with each other and discuss the game. This can foster a sense of community and increase user engagement.
